@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <nav style={{ display: "flex", gap: 20 }}>
+      <nav style={{ display: "flex", gap: 20, flexDirection: "column" }}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
       </nav>
